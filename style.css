@@ -1,0 +1,64 @@
+body {
+    background: url(photo-1474767821094-a8fe9d8c8fdd.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+ul lo {
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover {
+    background-color: darkgoldenrod;
+}
+
+ul lo a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul lo a:hover {
+    background-color: darkgoldenrod;
+}
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
